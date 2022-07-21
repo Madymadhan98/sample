@@ -1,0 +1,53 @@
+package org.test;
+
+
+public class Flow_control_ifstatement {
+	public static void main(String[] args) {
+	
+	int x=10;
+	int y=50;
+	
+	if(x>y)
+	{
+		System.out.println("x is Bigger and the x is: "+x);
+	}
+	else
+	{
+		System.out.println("Y is Bigger and y is: "+y);
+	}
+	
+
+//Mark statement using if nested statement
+     int score=93;
+     int h=54;
+     if(score<=h)
+     {
+    	 System.out.println("Excellent student ");
+     }
+     else if(score<y)
+     {
+    	 System.out.println("Average Student");
+     }
+     else
+     {
+    	 System.out.println("Not eligible");
+     }
+     
+	
+	//While loop
+     int num=1;
+     while(num<=5) {
+    	 System.out.println(num);
+    	 num++;
+    	 
+     }
+	
+	
+	
+	
+	
+	
+	
+	
+}
+}

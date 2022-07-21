@@ -1,0 +1,20 @@
+package org.test;
+
+
+public class Flow_control_ifstatement {
+	public static void main(String[] args) {
+	
+	int x=10;
+	int y=29;
+	
+	if(x>y)
+	{
+		System.out.println("x is Bigger and the x is: "+x);
+	}
+	else
+	{
+		System.out.println("Y is Bigger and y is: "+y);
+	}
+	
+}
+}
